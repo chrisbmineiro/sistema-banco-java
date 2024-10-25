@@ -1,10 +1,10 @@
 package models;
 
 public class ContaTerminal {
-        private String usuario;
-        private String agencia;
-        private String nome;
-        private double saldo;
+        private final String usuario;
+        private final String agencia;
+        private final String nome;
+        private final double saldo;
 
         public ContaTerminal(String usuario, String agencia, String nome, double saldo) {
             this.usuario = usuario;
